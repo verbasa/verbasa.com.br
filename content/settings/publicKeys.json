@@ -1,0 +1,9 @@
+{
+  "cloudinary": {
+    "cloud_name": "nennogabriel",
+    "api_key": "161333987975368"
+  },
+  "uploadcare": {
+    "publicKey": ""
+  }
+}

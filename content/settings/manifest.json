@@ -1,0 +1,10 @@
+{
+  "icon": "/favicon.ico",
+  "name": "Verbasa",
+  "shortname": "Verbasa",
+  "startUrl": "/",
+  "bgColor": "#ffffff",
+  "themeColor": "#ffffff",
+  "orientation": "portrait",
+  "display": "standalone"
+}

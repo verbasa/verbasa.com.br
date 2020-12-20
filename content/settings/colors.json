@@ -1,0 +1,65 @@
+{
+  "colors": [
+    {
+      "label": "brand",
+      "colors": [
+        "#6888dd",
+        "#4e74d7",
+        "#3560d1",
+        "#2b53bb",
+        "#2547a2",
+        "#1f3c88",
+        "#19316e",
+        "#132555",
+        "#0d1a3b",
+        "#080f21"
+      ],
+      "colorsRefs": [
+        "brand.50",
+        "brand.100",
+        "brand.200",
+        "brand.300",
+        "brand.400",
+        "brand.500",
+        "brand.600",
+        "brand.700",
+        "brand.800",
+        "brand.900"
+      ]
+    },
+    {
+      "label": "rank",
+      "colors": [
+        "#BF5327",
+        "#717171",
+        "#FF9D3B",
+        "#69A8FF"
+      ],
+      "colorsRefs": [
+        "rank.50",
+        "rank.100",
+        "rank.200",
+        "rank.300"
+      ]
+    },
+    {
+      "label": "aux",
+      "colors": [
+        "#f9f9f9",
+        "#f4ede8",
+        "#77838f",
+        "#3A3A3A",
+        "#2E2E36",
+        "#232323"
+      ],
+      "colorsRefs": [
+        "aux.50",
+        "aux.100",
+        "aux.200",
+        "aux.300",
+        "aux.400",
+        "aux.500"
+      ]
+    }
+  ]
+}

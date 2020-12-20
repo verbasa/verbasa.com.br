@@ -1,0 +1,22 @@
+{
+  "localID": {
+    "foundingDate": "2020-12-07T18:17:38.431Z",
+    "type": "CNPJ",
+    "legalName": "Verbasa Investimentos SA"
+  },
+  "email": {
+    "address": "suporte@verbasa.com.br",
+    "subject": "[verbasa] website"
+  },
+  "address": {
+    "display": "Rua bernardino de campos 277, centro",
+    "locality": "Indaiatuba",
+    "region": "SP",
+    "country": "Brasil"
+  },
+  "phone": {
+    "number": "",
+    "display": "",
+    "message": ""
+  }
+}
