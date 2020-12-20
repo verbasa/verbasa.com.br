@@ -92,11 +92,11 @@ if (process.env.NODE !== "development") {
       },
     })
   }
-  if (!!publicKeys.tawkTo) {
+  if (!!publicKeys.tawkto) {
     plugins.push({
       resolve: `gatsby-plugin-tawk.to`,
       options: {
-        tawkId: publicKeys.tawkTo,
+        tawkId: publicKeys.tawkto,
       },
     })
   }
