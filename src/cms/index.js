@@ -11,7 +11,7 @@ import { colorsEventPreSave } from "./collections/settings/events/colors"
 let config = {
   backend: {
     name: "github",
-    branch: "dev",
+    branch: "main",
     repo: repository.split("github.com/")[1].split(".git")[0],
   },
   display_url: window.location.origin,
