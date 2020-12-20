@@ -3,7 +3,7 @@ import header from "./files/header"
 import newsletter from "./files/newsletter"
 import faqForm from "./files/faqForm"
 import footer from "./files/footer"
-import attentionModal from "./files/AttentionModal"
+import attentionModal from "./files/attentionModal"
 
 const collection: CmsCollection = {
   label: "Components",
