@@ -1,6 +1,6 @@
 import { Box, Flex } from "@chakra-ui/react"
 import React from "react"
-import { AttentionModal, Footer, Header } from ".."
+import { AttentionModal, Footer, Header } from "../../components"
 
 const DefaultLayout: React.FC = ({ children }) => {
   return (
