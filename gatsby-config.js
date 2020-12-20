@@ -72,7 +72,7 @@ if (!!manifest) {
   })
 }
 
-if (process.env.NODE === "production") {
+if (process.env.NODE !== "development") {
   plugins.push({
     resolve: `gatsby-plugin-sitemap`,
     options: {
@@ -84,7 +84,7 @@ if (process.env.NODE === "production") {
       resolve: "gatsby-plugin-gtag",
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: analytics.trackingId,
+        trackingId: publicKeys.gtag,
         // Setting this parameter is optional
         anonymize: false,
         // Delays sending pageview hits on route update (in milliseconds)
