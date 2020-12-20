@@ -2,7 +2,7 @@
   "name": "gatsby-start-template",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/sealworks/gatsby-starter",
+  "repository": "https://github.com/verbasa/verbasa.com.br",
   "author": "Pedro Moreno <nennogabriel@gmail.com>",
   "license": "0BSD",
   "scripts": {
