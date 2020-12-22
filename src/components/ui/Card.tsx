@@ -36,7 +36,7 @@ const Card: React.FC<CardProps> = ({ title, text, link, icon, ...rest }) => {
   return (
     <>
       {link ? (
-        <Link href={link} {...rest}>
+        <Link href={link} {...rest} _hover={{ textDecoration: "none" }}>
           <Content title={title} text={text} icon={icon} />
         </Link>
       ) : (

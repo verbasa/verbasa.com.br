@@ -47,7 +47,10 @@ const homePageCollection: CmsCollectionFile = {
       label: "Description",
       name: "description",
       widget: "object",
-      fields: [{ label: "Title", name: "title", widget: "string" }, cardsGroup],
+      fields: [
+        { label: "Title", name: "title", widget: "string", required: false },
+        cardsGroup,
+      ],
     },
     {
       label: "Body (of Description)",
