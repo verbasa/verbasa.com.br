@@ -6,8 +6,8 @@ const urlField: CmsField = {
   widget: "string",
   default: "https://",
   pattern: [
-    "(https?://)([-a-zA-Z0-9@:%_+.~#?&//=])*",
-    'A url must start with "https://" and have no spaces or special characters',
+    "(https?:/||)(/[da-z.-]+)([/w.-]*)*?",
+    'A url must start with "https://" and have no spaces or special characters. Start with / for internal site pages',
   ],
 }
 

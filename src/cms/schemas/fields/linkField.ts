@@ -5,10 +5,10 @@ const linkField: CmsField = {
   name: "link",
   widget: "string",
   pattern: [
-    "^([/a-z0-9]*)(?:-[a-z0-9]+)*$",
-    "A link can have no spaces or special characters",
+    "(https?:/||)(/[da-z.-]+)([/w.-]*)*?",
+    'A url must start with "https://" and have no spaces or special characters. Start with / for a internal website pages',
   ],
-  hint: 'use only "/some-reference" with link inside this website.',
+  hint: 'use only "/some-reference" for a link inside this website.',
 }
 
 export default linkField

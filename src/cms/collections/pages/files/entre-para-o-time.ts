@@ -55,7 +55,42 @@ const entreParaOTimePageCollection: CmsCollectionFile = {
             },
           ],
         },
-        buttonsGroup,
+        {
+          label: "Buttons",
+          name: "buttons",
+          widget: "list",
+          fields: [
+            {
+              label: "Label",
+              name: "label",
+              widget: "string",
+            },
+            {
+              label: "Color Scheme",
+              name: "colorScheme",
+              widget: "select",
+              options: ["brand", "blue", "red", "grey"],
+            },
+            {
+              label: "Variant",
+              name: "variant",
+              widget: "select",
+              options: ["solid", "ghost", "outline", "link"],
+            },
+            {
+              label: "Link",
+              name: "link",
+              widget: "string",
+              pattern: [
+                "(https?:/||)(/[da-z.-]+)([/w.-]*)*?",
+                'A url must start with "https://" and have no spaces or special characters. Start with / for a internal website pages',
+              ],
+              hint:
+                'use only "/some-reference" for a link inside this website.',
+              required: false,
+            },
+          ],
+        },
       ],
     },
 

@@ -172,12 +172,15 @@ const BlockPlans: React.FC<BlockPlansProps> = ({ plans }) => {
                         as={Link}
                         key={button.label}
                         variant={button.variant}
-                        colorScheme={button.colorScheme}
+                        colorScheme={
+                          !!button.link ? button.colorScheme : "gray"
+                        }
                         href={button.link}
                         px={10}
                         ml={index !== 0 ? 8 : 0}
+                        disabled={!button.link}
                       >
-                        {button.label}
+                        {!!button.link ? button.label : "Em breve!"}
                       </Button>
                     ))}
                   </Flex>
