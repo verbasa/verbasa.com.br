@@ -70,6 +70,7 @@ const BlockMission: React.FC<BlockMissionProps> = ({ text, bgImage }) => {
       <Box
         bg={`url(${bgImage})`}
         bgPosition="top right"
+        bgSize="cover"
         rounded="md"
         textAlign={{ base: "center", md: "left" }}
       >
@@ -101,6 +102,7 @@ const BlockVision: React.FC<BlockVisionProps> = ({ text, bgImage }) => {
       <Box
         bg={`url(${bgImage})`}
         bgPosition="top right"
+        bgSize="cover"
         rounded="md"
         textAlign="center"
         color="white"
