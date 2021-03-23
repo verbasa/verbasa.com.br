@@ -2,9 +2,9 @@ import React from "react"
 import { MDXProvider } from "@mdx-js/react"
 import components from "../../components/mdx"
 
-import { Box, Flex, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react"
+import { Box, Heading, SimpleGrid, Text } from "@chakra-ui/react"
 import { Container, MDXBodyRender } from "../../components/"
-import BlogCard, { BlogCardThumb } from "./BlogCard"
+import { BlogCardThumb } from "./BlogCard"
 
 interface BlockPostProps {
   title: string
@@ -37,7 +37,7 @@ const BlockPost: React.FC<BlockPostProps> = ({
   isPreview = false,
 }) => {
   return (
-    <Container>
+    <Container maxWidth={900}>
       <Box rounded="xl" bg="white" p={{ base: 4, md: 8, lg: 12 }}>
         <SimpleGrid columns={{ base: 1, lg: 2 }} spacing={8} mb={8}>
           <BlogCardThumb

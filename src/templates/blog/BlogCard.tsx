@@ -23,7 +23,7 @@ export const BlogCardThumb: React.FC<BlogCardThumbProps> = ({
       h={60}
       justify="center"
       align="center"
-      color="rgba(255,255,255,0.618)"
+      color="rgba(255,255,255)"
       p={8}
       rounded="lg"
     >

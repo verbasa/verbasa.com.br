@@ -14,7 +14,7 @@ import {
 import { FaChevronRight } from "react-icons/fa"
 
 const MarketBox: React.FC = () => (
-  <Container>
+  <Container maxWidth={900}>
     <Box rounded="xl" bg="white" p={{ base: 4, md: 8, lg: 12 }}>
       <SVGIcon name="logo-verbasa" h={8} w="auto" mb={4} />
       <Heading as="p" fontSize="2xl" mb={4}>
@@ -117,11 +117,11 @@ const PagesLayout: React.FC<PageProps> = ({ data, pageContext }) => {
       <Box
         bgColor="gray.200"
         bgImg={`url(${bgImage})`}
-        bgSize="100% 500px"
+        bgSize="cover 500px"
         bgPos="center top"
         bgRepeat="no-repeat"
       >
-        <Container>
+        <Container maxWidth={900}>
           <Breadcrumb
             spacing="8px"
             separator={<FaChevronRight color="gray.500" size={10} />}
