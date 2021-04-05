@@ -114,14 +114,24 @@ const PagesLayout: React.FC<PageProps> = ({ data, pageContext }) => {
   return (
     <DefaultLayout>
       <SEO slug={slug} pageMetadata={{ title }} metadata={metadata} />
-      <Box
-        bgColor="gray.200"
-        bgImg={`url(${bgImage})`}
-        bgSize="cover 500px"
-        bgPos="center top"
-        bgRepeat="no-repeat"
-      >
-        <Container maxWidth={900}>
+      <Box bgColor="gray.200" position="relative">
+        <Box
+          bgImage={`url(${bgImage})`}
+          bgPos="0 top"
+          bgSize="cover"
+          bgRepeat="no-repeat"
+          position="absolute"
+          zIndex={0}
+          top={0}
+          left={0}
+          right={0}
+          h={460}
+          w="100%"
+          overflow="hidden"
+        >
+          <Box bgColor="rgba(0,0,0,0.0)" w="100%" height="100%"></Box>
+        </Box>
+        <Container maxWidth={900} position="relative" zIndex="1">
           <Breadcrumb
             spacing="8px"
             separator={<FaChevronRight color="gray.500" size={10} />}
@@ -143,7 +153,9 @@ const PagesLayout: React.FC<PageProps> = ({ data, pageContext }) => {
           </Breadcrumb>
         </Container>
 
-        <PostTemplate data={{ ...templateData }} />
+        <Box position="relative" zIndex={10}>
+          <PostTemplate data={{ ...templateData }} />
+        </Box>
         <MarketBox />
       </Box>
     </DefaultLayout>

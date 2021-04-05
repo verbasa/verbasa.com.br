@@ -26,6 +26,7 @@ export const BlogCardThumb: React.FC<BlogCardThumbProps> = ({
       color="rgba(255,255,255)"
       p={8}
       rounded="lg"
+      position="relative"
     >
       {!!thumbCaption && !image && (
         <Heading textAlign="center">{thumbCaption}</Heading>
