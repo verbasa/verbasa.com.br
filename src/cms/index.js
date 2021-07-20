@@ -15,7 +15,7 @@ let config = {
     repo: repository.split("github.com/")[1].split(".git")[0],
   },
   display_url: window.location.origin,
-  publish_mode: "editorial_workflow",
+  // publish_mode: "editorial_workflow",
   slug: {
     encoding: "unicode",
     clean_accents: true,

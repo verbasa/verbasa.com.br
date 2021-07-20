@@ -115,7 +115,8 @@ const BlockCallToAction: React.FC<BlockCallToActionProps> = ({
                 colorScheme={button.colorScheme}
                 variant={button.variant}
                 p={6}
-                href={button.link}
+                // href={button.link}
+                href="/entre-para-o-time"
               >
                 {button.label}
               </Button>

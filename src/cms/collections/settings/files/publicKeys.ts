@@ -11,6 +11,16 @@ const publicKeysCollectionFile: CmsCollectionFile = {
       required: false,
     },
     {
+      label: "Google TagManager",
+      name: "gTagManager",
+      required: false,
+    },
+    {
+      label: "Facebook Pixel",
+      name: "fbPixel",
+      required: false,
+    },
+    {
       label: "tawk.to",
       name: "tawkto",
       required: false,
